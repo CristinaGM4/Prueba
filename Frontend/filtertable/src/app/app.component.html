@@ -1,0 +1,29 @@
+<div class = "container mt-2">
+  <h2>Requests</h2>
+  <input type ="text"
+  placeholder ="Search by status"
+  [(ngModel)]="filterText">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">User Name</th>
+        <th scope="col">Subject</th>
+        <th scope="col">Customer Satisfaction</th>
+        <th scope="col">Priority</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of Data | filterData: filterText">
+         <td>
+          {{ data.UserName }}
+        </td>
+        <td>{{ data.Subject }}</td>
+        <td>{{data.CustomerSatisfaction}} %</td>
+        <td>{{data.Priority}}</td>
+        <td>{{data.Status}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
