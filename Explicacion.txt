@@ -1,0 +1,7 @@
+Prueba Backend:
+
+Inicialmente se creó el diagrama de clases, analizando los datos necesarios para la aplicación, en el que se determinó crear dos clases de Viajes y de Clientes, con una relación de uno a muchos, un cliente puede tener varios viajes reservados. Después de esto se determina el pseucódigo, del cual se toma como referencia los primeros pasos, para proceder a crear la base de datos en MYSQL Workbench con los parámetros y tipos de datos establecidos en el diagrama de clases. Se revisó que estuvieran correctas las bases de datos, para después proceder a analizar cada una de las preguntas y mostrar las tablas con los datos requeridos para cada una de estas. 
+
+Prueba Frontend: 
+
+Se empieza creando la aplicación en Angular, creando inicialmente el Json de forma manual con datos falsos para cada una de las columnas de la tabla de Request, después de tener el JSON creado de manera coherente, se procede a llamarlo desde el componente inicial de la aplicación para que pueda ser visto en pantalla, también se importa bootstrap para un diseño más óptimo. Luego de que se crea la tabla y se llama el JSON se llaman cada uno de los parámetros del JSON para que pueda ser visto en pantalla. Después de esto se procede a crear un pipe, para el filtro del estado de la tabla. 

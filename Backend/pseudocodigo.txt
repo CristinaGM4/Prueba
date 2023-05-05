@@ -1,0 +1,10 @@
+Pseudocódigo:
+1. Implementación de la base de datos de los viajes disponibles que ofrece la compañía. 
+2. Consulta sobre cada uno de los elementos de la base de datos de viajes. 
+3. Implementación de la base de datos de las personas que consultan por los viajes.
+4. Consulta sobre cada uno de los elementos de la base de datos de clientes. 
+5. Implementación de Inicio de sesión como cliente. 
+6. Búsqueda de los viajes por parte de los clientes para futura reserva. 
+7. Creación de métodos para obtener y listar los viajes que la persona reserva. (GET)
+8. Creación de métodos para editar viaje que la persona reservó. (EDIT)
+9. Creación de métodos para eliminar viajes que la persona reservó. (DELETE) 
